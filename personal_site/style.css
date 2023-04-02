@@ -8,8 +8,9 @@
   
 }
 article{
-  height: 850px;
+  height: 2050px;
   width: 100%;
+  display: inline-block;
   
 
 }
@@ -26,6 +27,45 @@ body{
  color: #fff;
  
  
+}
+
+.cardDiv{
+  position: relative;
+  text-align: left; 
+  height: 300px;
+  width: 80%;
+  top: 10%;
+  left: 10%;
+  color: #fff;
+  border: 5px;
+  border-style: solid;
+  padding: 5px;
+ 
+  
+  
+}
+
+.divCardTitle{
+  padding: 0px 10px 0px 50px;
+  
+
+}
+
+
+.img1{
+  height: 150px;
+  width: 150px;
+  float: left;
+}
+
+.img2{
+  height: 150px;
+  width: 150px;
+  float: right;
+}
+
+.formatCardDiv{
+  border-color: #8e0101;
 }
 
 header{
