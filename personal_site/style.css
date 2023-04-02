@@ -180,3 +180,25 @@ nav .content .links{
   font-weight: 300;
 }
 
+.cardAbout{
+  position: relative;
+  text-align: left; 
+  height: 300px;
+  width: 80%;
+  top: 10%;
+  left: 10%;
+  color: #fff;
+  padding: 5px; 
+}
+
+#textAbout{
+  position: relative;
+  text-align: justify; 
+  top: 10%;
+  left: 10%;
+  color: #fff;
+  
+  
+  
+ }
+
