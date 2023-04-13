@@ -18,6 +18,21 @@ body{
   background-color: #000000;
 }
 
+.articleForm{
+  text-align: center;
+  margin-top: 5%;
+  height: 0%;
+  width: 20vmin;
+  justify-content: center;
+  margin-left: 40%;
+  
+}
+
+#fs-frm {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
 
 
 #mainText{
@@ -27,6 +42,12 @@ body{
  color: #fff;
  
  
+}
+
+.formDiv{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .cardDiv{
@@ -200,5 +221,9 @@ nav .content .links{
   
   
   
+ }
+
+ .labelForm{
+  color: #fff;
  }
 

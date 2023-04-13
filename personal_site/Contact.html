@@ -6,15 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- External css -->
     <link rel="stylesheet" href="style.css" />
-    <script src="javascript.js"></script>
-
   </head>
-   <!-- header  -->
+  <!-- header  -->
   <header>
     <div class="wrapper">
       <nav>
         <div class="content">
-        <div class="name"><a href="#">Luis Garcia</a></div>
+          <div class="name"><a href="#">Luis Garcia</a></div>
           <ul class="links">
             <li><a href="index.html">Home</a></li>
             <li><a href="portfolio.html">Portfolio</a></li>
@@ -24,21 +22,25 @@
         </div>
       </nav>
     </div>
-
-</header>
+  </header>
   <!-- body   -->
   <body>
-  
-    <article>
-      <div id="mainText">
-        <P><h1> calm and game on.</h1></P>
-        <h3>Neque porro quisquam est qui dolorem<br>
-           ipsum quia dolor sit amet, consectetur, adipisci velit... <br>
-           Suspendisse convallis at felis at semper. Donec placerat <br>
-           pretium urna vitae lacinia. Aenean ut metus pulvinar lacus semper tincidunt. Pellentesque a sollicitudin mauris.<br></h3>
+    <article class="articleForm">
+      <div class="formDiv">
+        <form id="fs-frm" name="simple-contact-form" action="https://formspree.io/f/xgebpkgg" method="post">
+            <fieldset id="fs-frm-inputs">
+              <input type="hidden" name="subject" id="subject" value="Contact Form Submission">
+              <label class="labelForm" for="name">Full Name</label>
+              <input type="text" name="name" id="name" placeholder="Your full name" autocomplete="name" required>
+              <label class="labelForm" for="email-address">Email Address</label>
+              <input type="email" name="email" id="email-address" placeholder="Your email" autocomplete="email" required>
+              <label class="labelForm" for="message">Message</label>
+              <textarea rows="5" name="message" id="message" placeholder="Your message" required></textarea>
+            </fieldset>
+            <input type="submit" value="Submit">
+          </form>
+        </body>
       </div>
- 
-
     </article>
   </body>
   <!-- footer  --> 
